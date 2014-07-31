@@ -1,0 +1,40 @@
+body {
+	/*background: rgb(70,100,100);*/
+	background: whitesmoke;
+	padding-top: 70px; //Boostrap Fixed Nav-bar
+}
+
+.navbar-brand {
+	color: red !important;
+}
+
+#analogJoystick {
+	height: 300px;
+	/*width: 511px;
+	margin: 10px 50px 10px 10px;*/
+	background: yellow;
+	border: 2px groove;
+}
+
+#emptybattery {
+	width: 100%;
+}
+
+#batteryDiv {
+	position: relative;
+}
+
+#batteryDiv>.progress {
+	position: absolute;
+	background: transparent;
+	height: 53%;
+	width: 67%;
+	top: 0;
+	margin-top: 11%;
+	margin-left: 15%;
+}
+
+#FT_Battery {
+	font-size: 500%;
+	padding-top: 20%;
+}
